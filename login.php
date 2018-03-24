@@ -2,7 +2,7 @@
 session_start();
 $errors = array();
 
-$db = mysqli_connect("localhost", "root", "Hazel355", "authentication");
+$db = mysqli_connect("localhost", "", "", "authentication");
 
 
 if (isset($_POST['login_btn'])){
